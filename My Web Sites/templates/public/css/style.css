@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat;
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+header {
+	margin: auto;
+	height: 63px;
+	width: 940px;
+}
+header nav {
+	float: left;
+	height: 46px;
+	width: 475px;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 136px;
+}
+
+#logo {
+	height: 46px;
+	width: 143px;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: left;
+}
+#wrapper header nav ul {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 7px;
+	margin-right: 0px;
+	margin-bottom: 7px;
+	margin-left: 0px;
+}
+#wrapper header nav ul li {
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	list-style-type: none;
+	padding-top: 10px;
+	padding-right: 7px;
+	padding-bottom: 10px;
+	padding-left: 7px;
+}
+#wrapper header nav ul li a {
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+}
+
+
+
+
+
+#wrapper {
+	margin: auto;
+	height: auto;
+	width: 940px;
+	font-family: "Helvetica Neue";
+	font-size: 12px;
+}
