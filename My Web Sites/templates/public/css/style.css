@@ -105,3 +105,37 @@ header nav {
 	border-left-style: none;
 	color: #FFF;
 }
+/** - BANNER STYLE - **/
+#wrapper .banner {
+	height: 341px;
+	width: 943px;
+	background-image: none;
+	margin-top: 15px;
+}
+#wrapper .banner .btn {
+	border-radius: 3px;
+	height: 35px;
+	width: 135px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	left: 9px;
+	bottom: 80px;
+	background-image: url(../images/seeourwork.jpg);
+	background-repeat: repeat;
+}
+#wrapper .banner .btn a {
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-size: 13px;
+	line-height: 1.538em;
+	font-weight: bolder;
+	color: #FFF;
+	text-decoration: none;
+	float: left;
+	height: auto;
+	width: auto;
+	margin-top: 7px;
+	margin-right: 23px;
+	margin-bottom: 10px;
+	margin-left: 22px;
+}
