@@ -4,6 +4,18 @@
         <meta charset="UTF-8">
         <title>Portilo</title>
         <link href="templates/public/css/style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="templates/public/js/jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="templates/public/js/jquery.cycle.all.js"></script>
+        <script type="text/javascript">
+    		$(function(){
+				$('#image').cycle({
+					fx:		'scrollHorz',
+					timeout:  1500,
+					speed:	  500,
+					pause:	  true,
+				})
+			})
+		</script>
     </head>
     <body>
    	<div id="wrapper">
@@ -15,7 +27,13 @@
             <ul>
             	<li class="home"><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Portfolio</a>
+                    <ul>
+                        <li><a href="#">Portfolio 1</a></li>
+                        <li><a href="#">Portfolio 2</a></li>
+                        <li><a href="#">Portfolio 3</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Archives</a></li>
                 <li><a href="#">Contact</a></li>
@@ -27,7 +45,11 @@
           </form>
     	</header>
         <div class="banner">
-          	<img src="templates/public/images/banner.jpg" width="943" height="341" alt="banner"> 
+            <div id="image">
+                <img src="templates/public/images/banner.jpg" width="943" height="341" alt="banner">
+                <img src="templates/public/images/banner1.jpg" width="943" height="341" alt="banner"> 
+                <img src="templates/public/images/banner2.jpg" width="943" height="341" alt="banner"> 
+            </div>
             <div class="btn">
             	<a href="https://www.youtube.com/watch?v=ppL0Tb4ZtLs" target="_blank">See your work</a>
             </div>

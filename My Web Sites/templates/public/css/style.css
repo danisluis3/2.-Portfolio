@@ -59,6 +59,7 @@ header nav {
 	padding-right: 7px;
 	padding-bottom: 10px;
 	padding-left: 7px;
+	position:relative;
 }
 #wrapper header nav ul li:hover,.home{
 	background-color: #2f2f2f;
@@ -66,6 +67,9 @@ header nav {
 	background-image: url(../images/menu_hover.jpg);
 	background-repeat: repeat;
 	border:1px solid #2f2f2f;
+}
+#wrapper header nav ul li:hover > ul{
+	display: block;
 }
 
 #wrapper header nav ul li a {
@@ -83,6 +87,22 @@ header nav {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+}
+#wrapper header nav ul ul {
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	z-index: 99;
+	background-color: #2F2F2F;
+	padding: 0px;
+	width: 120px;
+	margin: 0px;
+	display: none;
+}
+#wrapper header nav ul ul li {
+	width: 100%;
+	border: thin solid #CCC;
+	background-color: #2F2F2F;
 }
 #wrapper header .search .submit_search {
 	background-image: url(../images/search_submit.jpg);
@@ -111,28 +131,35 @@ header nav {
 	width: 943px;
 	background-image: none;
 	margin-top: 15px;
+	position: relative;
+}
+#wrapper .banner #image {
+	height: 341px;
+	width: 943px;
+	position: absolute;
+	overflow: hidden;
 }
 #wrapper .banner .btn {
 	border-radius: 3px;
 	height: 35px;
 	width: 135px;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	z-index: 2;
 	left: 9px;
-	bottom: 80px;
-	background-color:#999999;
+	bottom: 50px;
+	background-color: #999999;
 }
 #wrapper .banner .btn:hover {
 	border-radius: 3px;
 	height: 35px;
 	width: 135px;
 	text-align: center;
-	position: relative;
+	position: absolute;
 	z-index: 2;
 	left: 9px;
-	bottom: 80px;
-	background-color:#2F2F2F;
+	bottom: 50px;
+	background-color: #2F2F2F;
 }
 #wrapper .banner .btn a {
 	font-family: "Helvetica Neue", "Times New Roman", Arial;
@@ -279,17 +306,16 @@ header nav {
 	float: left;
 	height: 45px;
 	width: 143px;
-	margin-top: -30px;
+	margin: 5px;
 }
 #wrapper footer .description {
 	height: 45px;
 	width: 326px;
-	margin-top: -30px;
 	float: left;
 	color: #737373;
 }
 #wrapper footer .description p {
-	margin-top: 8px;
+
 }
 #wrapper footer .author {
 	height: 45px;
@@ -298,5 +324,5 @@ header nav {
 	color: #FFF;
 }
 #wrapper footer .author p {
-	margin-top: -22px;
+
 }
