@@ -35,7 +35,7 @@ header nav {
 #wrapper {
 	margin: auto;
 	height: auto;
-	width: 940px;
+	width: 960px;
 	font-family: "Helvetica Neue";
 	font-size: 12px;
 }
@@ -121,8 +121,18 @@ header nav {
 	z-index: 2;
 	left: 9px;
 	bottom: 80px;
-	background-image: url(../images/seeourwork.jpg);
-	background-repeat: repeat;
+	background-color:#999999;
+}
+#wrapper .banner .btn:hover {
+	border-radius: 3px;
+	height: 35px;
+	width: 135px;
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	left: 9px;
+	bottom: 80px;
+	background-color:#2F2F2F;
 }
 #wrapper .banner .btn a {
 	font-family: "Helvetica Neue", "Times New Roman", Arial;
@@ -138,4 +148,155 @@ header nav {
 	margin-right: 23px;
 	margin-bottom: 10px;
 	margin-left: 22px;
+}
+/** ----------- LẬP TRÌNH PHẦN NỘI DUNG CONTENT ----------- **/
+#wrapper .about {
+	height: 398px;
+	width: 960px;
+	float: left;
+}
+#wrapper .about section {
+	height: 375px;
+	width: 220px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-size: 12px;
+	background-color: #FFF;
+}
+
+#wrapper .about section h1 {
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-size: 15px;
+	color: #000;
+	line-height: 1.2;
+	text-align:center;
+}
+#wrapper .about section .title {
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-size: 12px;
+	color: #8e8e8e;
+	line-height: 1.333;
+	text-align: left;
+	margin-left: 28px;
+	margin-right: 30px;
+}
+#wrapper .about section .preview {
+	margin-left: 28px;
+	margin-right: 30px;
+}
+#wrapper .about section .readmore {
+	height: 188px;
+	width: 220px;
+}
+#wrapper .about section .readmore img {
+	margin-left: 27px;
+	margin-top: 22px;
+}
+#wrapper .about section .readmore p {
+	margin-left: 28px;
+	margin-top: 47px;
+}
+#wrapper .about section .readmore p a {
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+}
+#wrapper .work {
+	height: 558px;
+	width: 960px;
+	float: left;
+	margin: auto;
+}
+#wrapper .work .title_work {
+	height: 74px;
+	width: 960px;
+	background-image: url(../images/title_work_background.jpg);
+	background-repeat: repeat;
+}
+#wrapper .work .title_work p {
+	font-family: "Helvetica Neue", "Times New Roman", Arial;
+	font-weight: bold;
+	color: #000;
+	font-size: 18px;
+	margin-top: 22px;
+	margin-left: 22px;
+}
+#wrapper .work .content {
+	height: 457px;
+	width: 185px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 15px;
+}
+#wrapper .work .content h2 {
+	font-family: "Helvetica Neue";
+	font-weight: normal;
+	color: #b6b6b6;
+	font-size: 12px;
+}
+#wrapper .work .image_work {
+	height: 487px;
+	width: 700px;
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#wrapper .work .image_work li {
+	list-style-type: none;
+	float: left;
+	margin-top: 5px;
+	margin-right: 7px;
+	margin-bottom: 5px;
+	margin-left: 7px;
+}
+/** ---------- FOOTER STYLE ----------- **/
+#wrapper .footer-content {
+	height: 278px;
+	width: 960px;
+	float: left;
+}
+#wrapper .footer-content section {
+	height: auto;
+	width: 220px;
+	float: left;
+	margin: 10px;
+	color: #FFF;
+}
+#wrapper .footer-content section li {
+	list-style-type: none;
+	float: left;
+	margin: 6px;
+}
+#wrapper footer {
+	height: auto;
+	width: 960px;
+}
+#wrapper footer .logofooter {
+	float: left;
+	height: 45px;
+	width: 143px;
+	margin-top: -30px;
+}
+#wrapper footer .description {
+	height: 45px;
+	width: 326px;
+	margin-top: -30px;
+	float: left;
+	color: #737373;
+}
+#wrapper footer .description p {
+	margin-top: 8px;
+}
+#wrapper footer .author {
+	height: 45px;
+	width: 249px;
+	float: right;
+	color: #FFF;
+}
+#wrapper footer .author p {
+	margin-top: -22px;
 }
